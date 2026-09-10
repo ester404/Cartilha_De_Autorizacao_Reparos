@@ -207,3 +207,10 @@
     .content-wrap{padding:36px 24px 80px;}
     .topbar{padding:14px 20px;}
   }
+
+  @media print{
+    #sidebar,.topbar,#backtop,.sb-print{display:none!important;}
+    body{display:block!important;}
+    #main{margin-left:0!important;}
+    .content-wrap{padding:0!important;max-width:100%!important;}
+  }
